@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form{
+  width: 99vw;
+  height: 100vh;
+  background-color: black;
+  display: block;
+}
+
+.textarea {
+  margin: 2% 5%;  
+  width: 84%;
+  height: 30%;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.fieldset {
+  margin: 2% 5%;  
+  width: 90%;
+  height: 50%;
+  max-height: 300px;
+  border: none;
+}
+
+.keyboard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.firstRow,
+.secondRow, 
+.thirdRow, 
+.fourthRow, 
+.fifthRow {
+  width: 100%;
+  height: 17%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ 
+
+
+
+.key {
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.single {
+  height: 100%;
+  width: 6%;
+}
+
+.double {
+  height: 100%;
+  width: 9%;
+}
+
+.space {
+  height: 100%;
+  width: 33%; 
+}
+
+.backspace {
+  width: 15.5%;
+}
+
+.tab {
+  width: 9%;
+}
+
+.cupsLock,
+.enter{
+  width: 14%;
+}
+
+.shift {
+  width: 22%;
+}
+
+
+
+
+.numeral {
+  background-color: aqua;
+}
+
+.service {
+  background-color: #ffffff;
+}
+
+.symbol {
+  background-color: dimgray;
+}
+
+.navigation {
+  background-color: aqua;
+}
